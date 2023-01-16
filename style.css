@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/hero.png');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.header {
+  display: flex;
+  padding-top: 18px;
+  color: #fff;
+}
+.logo {
+  margin-left: 10%;
+}
+nav {
+  margin-left: 8%;
+}
+nav a {
+  color: rgb(239, 239, 239);
+  text-decoration: none;
+  padding-left: 10px;
+}
+.account {
+  padding-left: 20%;
+}
+.account a {
+  text-decoration: none;
+  color: #fff;
+}
+.account button {
+  margin-left: 25px;
+  color: #fff;
+  background-color: #008cff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 10%;
+}
+  .big-text {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+  }
+  .small-text {
+    color: rgb(239, 239, 239);
+    margin-top: 25px;
+  }
+  .action-btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .action-btns button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 900;
+  }
+  #btn-1 {
+    background-color: #008cff;
+    margin-right: 10px;
+  }
+  #btn-2 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #fff;
+  }
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 140px;
+}
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    /* height: 200px; */
+  }
+  .card ion-icon {
+    color: #008cff;
+    padding-bottom: 10px;
+  }
+  .card h2 {
+    padding-bottom: 10px;
+  }
+  .special {
+    background-color: #008cff;
+    color: #fff;
+  }
+  .special ion-icon {
+    color: #fff;
+  }
+
+.dark-grey {
+  background-color: rgb(239, 239, 239);
+  height: 150px;
+}
