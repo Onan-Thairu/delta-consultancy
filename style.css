@@ -185,3 +185,68 @@ nav a {
   background-color: #008cff;
   color: #fff;
 }
+
+.accounts {
+  display: flex;
+  justify-content:center;
+  /* background-color: aquamarine; */
+  height: 95vh; 
+}
+.accounts p {
+  color: rgb(50, 50, 50);
+}
+.accounts button {
+  margin-top: 2em;
+  border: none;
+  padding: 1em 5em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #008cff;
+}
+.account-card {
+  text-align: center;
+  border: 1px solid #008cff;
+  border-radius: 5px;
+  padding: 40px 30px;
+  height: 90%;
+}
+.account-card h2 {
+  margin-bottom: 30px;
+}
+.account-card .heading {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.account-card .price {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #008cff;
+  margin-bottom: 2rem;
+}
+  .checklist {
+    display: flex;
+    gap: .8em;
+    margin-bottom: .8em;
+  }
+  .ticked ion-icon {
+    background-color: green;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .account-card-colored {
+    background-color: rgb(0, 0, 74);
+    height: 100%;
+  }
+  .account-card-colored p {
+    color: #fff;
+  }
+  .account-card-colored .gray {
+    background-color: gray;
+    border-radius: 50%;
+  }
+  .account-card-colored h2 {
+    color: #fff;
+  }
+  .lowered {
+    margin-top: 58px;
+  }
