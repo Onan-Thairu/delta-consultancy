@@ -103,6 +103,18 @@ nav a {
   }
 
 .dark-grey {
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(249, 249, 249);
   height: 150px;
+}
+
+.hero-2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-2 ion-icon {
+  color: #008cff;
 }
