@@ -327,7 +327,6 @@ nav a {
   height: 60vh;
   background-color: #f7f7f7;
   padding-bottom: 2em;
-  /* padding-top: 19em; */
 }
 .contact-us h3 {
   margin-bottom: .5em;
@@ -372,4 +371,52 @@ nav a {
 .base ion-icon {
   color: #23a7f1;
   margin: 0px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .account button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .accounts {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .account-card {
+    height: auto;
+    width: max-content;
+    margin: 1em auto;
+  }
+  .checklist {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .features {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer .resources {
+    display: none;
+  }
 }
