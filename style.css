@@ -415,6 +415,15 @@ nav a {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .pricing {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .footer .resources {
     display: none;
