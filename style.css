@@ -454,9 +454,9 @@ nav a {
   .contact-us {
     display: none;
   }
-  .footer {
+  /* .footer {
     display: none;
-  }
+  } */
   .base {
     display: none;
   }
@@ -485,5 +485,11 @@ nav a {
   }
   .branches {
     height: auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer .legal {
+    display: none;
   }
 }
